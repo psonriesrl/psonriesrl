@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>PSONRÍE S.R.L </title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Ubuntu:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Cargando...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="text-white">PSONRÍE<span class="text-dark"></span> S.R.L </h1>
+                </a>
+                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-item nav-link" style="font-size: 14px;">Inicio</a>
+                        <a href="psicologos.html" class="nav-item nav-link" style="font-size: 14px;">Psicólogos</a>
+                        <a href="terapia.html" class="nav-item nav-link active" style="font-size: 14px;">Terapia Online</a>
+                        <a href="soporte.html" class="nav-item nav-link" style="font-size: 14px;">Soporte técnico </a>
+                        <!--<div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu bg-light mt-2">
+                                <a href="feature.html" class="dropdown-item">Features</a>
+                                <a href="team.html" class="dropdown-item">Our Team</a>
+                                <a href="faq.html" class="dropdown-item">FAQs</a>
+                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                <a href="404.html" class="dropdown-item">404 Page</a>
+                            </div>
+                        </div>-->
+                        <a href="contactos.html" class="nav-item nav-link" style="font-size: 14px;">Redes sociales</a>
+                    </div>
+                    <butaton type="button" class="btn text-white p-0 d-none d-lg-block" data-bs-toggle="modal"
+                        data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Hero Start -->
+    <div class="container-fluid pt-5 bg-primary hero-header">
+        <div class="container pt-5">
+            <div class="row g-5 pt-5">
+                <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
+                    <h1 class="display-4 text-white mb-4 animated slideInRight">Terapia Online</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center justify-content-lg-start mb-0">
+                            <li class="breadcrumb-item"><a class="text-white" href="#">Inicio</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Terapia Online</li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="col-lg-6 align-self-end text-center text-lg-end">
+                    <img class="img-fluid" src="img/8.png" alt="" style="max-height: 300px;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+
+
+    <!-- Full Screen Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background: rgba(20, 24, 62, 0.7);">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn btn-square bg-white btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center">
+                    <div class="input-group" style="max-width: 600px;">
+                        <input type="text" class="form-control bg-transparent border-light p-3"
+                            placeholder="Escribe lo que necesites">
+                        <button class="btn btn-light px-4"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Full Screen Search End -->
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="img/14.jpg" class="card-img-top" alt="Terapia en Vivo">
+                    <div class="live-icon">En Vivo</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Terapia de Ansiedad</h5>
+                        <p class="card-text">Aprende técnicas para manejar la ansiedad y recuperar tu paz interior.</p>
+                        <p class="card-text"><strong>Psicólogo a cargo:</strong> Dr. Andrés Mendoza</p>
+                        <button class="btn btn-primary btn-block mb-2">Contactar</button>
+                        <button class="btn btn-success btn-block">Entrar a la sesión</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="img/15.jpg" class="card-img-top" alt="Terapia en Vivo">
+                    <div class="live-icon">En Vivo</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Manejo del Estrés</h5>
+                        <p class="card-text">Estrategias prácticas para reducir el estrés y mejorar tu bienestar.</p>
+                        <p class="card-text"><strong>Psicólogo a cargo:</strong> Lic. Carlos Quispe</p>
+                        <button class="btn btn-primary btn-block mb-2">Contactar</button>
+                        <button class="btn btn-success btn-block">Entrar a la sesión</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="img/16.jpg" class="card-img-top" alt="Terapia en Vivo">
+                    <div class="live-icon">En Vivo</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Desarrollo Personal</h5>
+                        <p class="card-text">Sesiones para fortalecer tu autoestima y habilidades personales.</p>
+                        <p class="card-text"><strong>Psicólogo a cargo:</strong> Dr. Roberto Salazar</p>
+                        <button class="btn btn-primary btn-block mb-2">Contactar</button>
+                        <button class="btn btn-success btn-block">Entrar a la sesión</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="img/17.png" class="card-img-top" alt="Terapia en Vivo">
+                    <div class="live-icon">En Vivo</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Manejo de la Depresión</h5>
+                        <p class="card-text">Técnicas y estrategias para manejar la depresión y mejorar tu estado de ánimo.</p>
+                        <p class="card-text"><strong>Psicólogo a cargo:</strong> Dra. Patricia Flores</p>
+                        <button class="btn btn-primary btn-block mb-2">Contactar</button>
+                        <button class="btn btn-success btn-block">Entrar a la sesión</button>
+                    </div>
+                </div>
+            </div>
+        
+        
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="img/18.jpg" class="card-img-top" alt="Terapia en Vivo">
+                    <div class="live-icon">En Vivo</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Técnicas de Relajación</h5>
+                        <p class="card-text">Aprende técnicas efectivas para reducir el estrés y relajarte profundamente.</p>
+                        <p class="card-text"><strong>Psicólogo a cargo:</strong> Lic. Mariana Rojas</p>
+                        <button class="btn btn-primary btn-block mb-2">Contactar</button>
+                        <button class="btn btn-success btn-block">Entrar a la sesión</button>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="img/19.png" class="card-img-top" alt="Terapia en Vivo">
+                    <div class="live-icon">En Vivo</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Autoconfianza y Autoestima</h5>
+                        <p class="card-text">Estrategias para fortalecer tu autoconfianza y mejorar tu autoestima.</p>
+                        <p class="card-text"><strong>Psicólogo a cargo:</strong> Dra. Gabriela Lira</p>
+                        <button class="btn btn-primary btn-block mb-2">Contactar</button>
+                        <button class="btn btn-success btn-block">Entrar a la sesión</button>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="img/20.png" class="card-img-top" alt="Terapia en Vivo">
+                    <div class="live-icon">En Vivo</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Superación de Pérdidas</h5>
+                        <p class="card-text">Apoyo y técnicas para superar la pérdida de seres queridos y adaptarte al cambio.</p>
+                        <p class="card-text"><strong>Psicólogo a cargo:</strong> Lic. Laura Vargas</p>
+                        <button class="btn btn-primary btn-block mb-2">Contactar</button>
+                        <button class="btn btn-success btn-block">Entrar a la sesión</button>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="img/21.jpg" class="card-img-top" alt="Terapia en Vivo">
+                    <div class="live-icon">En Vivo</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Desarrollo de Habilidades Sociales</h5>
+                        <p class="card-text">Mejora tus habilidades sociales y aprende a relacionarte mejor con los demás.</p>
+                        <p class="card-text"><strong>Psicólogo a cargo:</strong> Dr. Roberto Salazar</p>
+                        <button class="btn btn-primary btn-block mb-2">Contactar</button>
+                        <button class="btn btn-success btn-block">Entrar a la sesión</button>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="img/22.jpg" class="card-img-top" alt="Terapia en Vivo">
+                    <div class="live-icon">En Vivo</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Manejo del Estrés Post-Traumático</h5>
+                        <p class="card-text">Terapias diseñadas para ayudar a manejar y superar el estrés post-traumático.</p>
+                        <p class="card-text"><strong>Psicólogo a cargo:</strong> Lic. Carlos Quispe</p>
+                        <button class="btn btn-primary btn-block mb-2">Contactar</button>
+                        <button class="btn btn-success btn-block">Entrar a la sesión</button>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="img/23.png" class="card-img-top" alt="Terapia en Vivo">
+                    <div class="live-icon">En Vivo</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Gestión de la Ira</h5>
+                        <p class="card-text">Aprende técnicas para controlar y gestionar la ira de manera efectiva.</p>
+                        <p class="card-text"><strong>Psicólogo a cargo:</strong> Dra. Patricia Flores</p>
+                        <button class="btn btn-primary btn-block mb-2">Contactar</button>
+                        <button class="btn btn-success btn-block">Entrar a la sesión</button>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="img/24.png" class="card-img-top" alt="Terapia en Vivo">
+                    <div class="live-icon">En Vivo</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Terapia de Duelo</h5>
+                        <p class="card-text">Apoyo psicológico para procesar y superar el duelo por la pérdida de un ser querido.</p>
+                        <p class="card-text"><strong>Psicólogo a cargo:</strong> Lic. Laura Vargas</p>
+                        <button class="btn btn-primary btn-block mb-2">Contactar</button>
+                        <button class="btn btn-success btn-block">Entrar a la sesión</button>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="img/25.png" class="card-img-top" alt="Terapia en Vivo">
+                    <div class="live-icon">En Vivo</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Superación de Adicciones</h5>
+                        <p class="card-text">Terapias para ayudar a superar adicciones y recuperar el control sobre tu vida.</p>
+                        <p class="card-text"><strong>Psicólogo a cargo:</strong> Lic. Carlos Quispe</p>
+                        <button class="btn btn-primary btn-block mb-2">Contactar</button>
+                        <button class="btn btn-success btn-block">Entrar a la sesión</button>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="img/26.jpg" class="card-img-top" alt="Terapia en Vivo">
+                    <div class="live-icon">En Vivo</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Terapia Cognitivo-Conductual</h5>
+                        <p class="card-text">Sesiones enfocadas en cambiar patrones de pensamiento y comportamiento negativos.</p>
+                        <p class="card-text"><strong>Psicólogo a cargo:</strong> Dr. Andrés Mendoza</p>
+                        <button class="btn btn-primary btn-block mb-2">Contactar</button>
+                        <button class="btn btn-success btn-block">Entrar a la sesión</button>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+
+    <!-- Service Start -->
+    <div class="container-fluid bg-light mt-5 py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Psicológos</div>
+                    <h1 class="mb-4">Conoce a Nuestros Expertos en Salud Mental</h1>
+                    <p class="mb-4">En PSONRÌE, contamos con un equipo de psicólogos altamente capacitados y especializados en la atención de adolescentes. Cada uno de nuestros profesionales tiene una amplia experiencia en abordar los desafíos emocionales que enfrentan los jóvenes, garantizando un enfoque personalizado y efectivo para cada situación. Aquí, podrás conocer más sobre sus credenciales, áreas de especialización y el compromiso que tienen en brindar el mejor apoyo psicológico a nuestros usuarios. Nuestro objetivo es asegurar que cada adolescente reciba la ayuda adecuada y se sienta comprendido y respaldado en su camino hacia el bienestar emocional.</p>
+                    <a class="btn btn-primary rounded-pill px-4" href="">Saber Más</a>
+                </div>
+                <div class="col-lg-7">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="row g-4">
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                        <div class="service-icon btn-square">
+                                            <i class="fa fa-robot fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-3">Empáticos y Comprensivos</h5>
+                                        <p>Nuestros psicólogos saben escuchar y entienden por lo que estás pasando. Te ofrecerán un espacio seguro y sin juicios para expresar tus sentimientos.</p>
+                                        <a class="btn px-3 mt-auto mx-auto" href="">Saber Más</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                        <div class="service-icon btn-square">
+                                            <i class="fa fa-power-off fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-3">Altamente Calificados</h5>
+                                        <p>Todos nuestros profesionales están altamente capacitados y especializados en salud mental adolescente, asegurando que recibas la mejor atención posible.</p>
+                                        <a class="btn px-3 mt-auto mx-auto" href="">Saber Más</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 pt-md-4">
+                            <div class="row g-4">
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                        <div class="service-icon btn-square">
+                                            <i class="fa fa-graduation-cap fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-3">Confidenciales y Seguros</h5>
+                                        <p>Tu privacidad es nuestra prioridad. Garantizamos que todas tus sesiones sean completamente confidenciales y seguras.</p>
+                                        <a class="btn px-3 mt-auto mx-auto" href="">Saber Más</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.7s">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                        <div class="service-icon btn-square">
+                                            <i class="fa fa-brain fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-3">Enfoque Personalizado</h5>
+                                        <p>Cada adolescente es único. Nuestros psicólogos adaptan sus enfoques para atender tus necesidades específicas y ayudarte a superar tus desafíos emocionales.</p>
+                                        <a class="btn px-3 mt-auto mx-auto" href="">Saber Más</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Testimonial Start
+    <div class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Testimonial</div>
+                    <h1 class="mb-4">What Say Our Clients!</h1>
+                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam
+                        amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus
+                        clita duo justo et tempor eirmod magna dolore erat amet</p>
+                    <a class="btn btn-primary rounded-pill px-4" href="">Read More</a>
+                </div>
+                <div class="col-lg-7 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="owl-carousel testimonial-carousel border-start border-primary">
+                        <div class="testimonial-item ps-5">
+                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                            <p class="fs-4">Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet</p>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg"
+                                    style="width: 60px; height: 60px;">
+                                <div class="ps-3">
+                                    <h5 class="mb-1">Client Name</h5>
+                                    <span>Profession</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item ps-5">
+                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                            <p class="fs-4">Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet</p>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg"
+                                    style="width: 60px; height: 60px;">
+                                <div class="ps-3">
+                                    <h5 class="mb-1">Client Name</h5>
+                                    <span>Profession</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item ps-5">
+                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                            <p class="fs-4">Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet</p>
+                            <div class="d-flex align-items-center">
+                                <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg"
+                                    style="width: 60px; height: 60px;">
+                                <div class="ps-3">
+                                    <h5 class="mb-1">Client Name</h5>
+                                    <span>Profession</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    Testimonial End -->
+
+
+    <!-- Newsletter Start -->
+    <div class="container-fluid bg-primary newsletter py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-md-5 ps-lg-0 pt-5 pt-md-0 text-start wow fadeIn" data-wow-delay="0.3s">
+                    <img class="img-fluid" src="img/newsletter.png" alt="">
+                </div>
+                <div class="col-md-7 py-5 newsletter-text wow fadeIn" data-wow-delay="0.5s">
+                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3">Boletin informativo</div>
+                    <h1 class="text-white mb-4">¡No dudes en contactarnos!</h1>
+                    <div class="position-relative w-100 mt-3 mb-2">
+                        <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text"
+                            placeholder="Ingresa tu mensaje" style="height: 48px;">
+                        <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i
+                                class="fa fa-paper-plane text-primary fs-4"></i></button>
+                    </div>
+                    <small class="text-white-50">Envianos un mensaje y te responderemos al instante</small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Newsletter End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white-50 footer pt-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <a href="index.html" class="d-inline-block mb-3">
+                        <h1 class="text-white">PSONRÍE<span class="text-primary"></span>S.R.L.</h1>
+                    </a>
+                    <p class="mb-0">Estamos aquí para apoyarte en cada paso de tu camino hacia el bienestar emocional. Para más información o asistencia, no dudes en contactarnos.
+                    </p>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <h5 class="text-white mb-4">Datos</h5>
+                    <p><i class="fa fa-map-marker-alt me-3"></i>Calle Pedregal 123, La Paz, Bolivia</p>
+                    <p><i class="fa fa-phone-alt me-3"></i>+591 77515678</p>
+                    <p><i class="fa fa-envelope me-3"></i>contacto@psonrie.bo</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <h5 class="text-white mb-4">Populares</h5>
+                    <a class="btn btn-link" href="">Nosotros</a>
+                    <a class="btn btn-link" href="">Contactos</a>
+                    <a class="btn btn-link" href="">Politicas y Privacidad</a>
+                    <a class="btn btn-link" href="">Terminos y Condiciones</a>
+                    <a class="btn btn-link" href="">Otros</a>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <h5 class="text-white mb-4">Caracterizados por:</h5>
+                    <a class="btn btn-link" href="">Confidencialidad</a>
+                    <a class="btn btn-link" href="">Seguridad</a>
+                    <a class="btn btn-link" href="">Prefesionalismo</a>
+                    <a class="btn btn-link" href="">Renombre</a>
+                    <a class="btn btn-link" href="">Ayuda</a>
+                </div>
+            </div>
+        </div>
+        <div class="container wow fadeIn" data-wow-delay="0.1s">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">PSONRÍE</a>, Derechos Reservados.
+
+                    
+                        Deiseñado por <a class="border-bottom" href="https://htmlcodex.com">PSONRÍE</a> 2024 <a class="border-bottom" href="https://themewagon.com">ThemeWagon</a>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="">Inicio</a>
+                            <a href="">En Vivo</a>
+                            <a href="">Psicológos</a>
+                            <a href="">Preguntas</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
